@@ -1,0 +1,16 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="200" cy="200" r="200" fill="#e0e0e0"/>
+  
+  <!-- Profile Silhouette -->
+  <g transform="translate(200, 200)">
+    <!-- Head -->
+    <circle cx="0" cy="-70" r="70" fill="#a0a0a0"/>
+    
+    <!-- Body -->
+    <path d="M-70,50 C-70,-20 70,-20 70,50 L70,120 C70,150 -70,150 -70,120 Z" fill="#a0a0a0"/>
+  </g>
+  
+  <!-- Text -->
+  <text x="200" y="320" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#808080">Profile Photo</text>
+</svg>

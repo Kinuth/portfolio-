@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Software Engineer Portfolio</title>
+  <meta name="description" content="Professional portfolio showcasing software engineering projects, skills, and experience">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+  
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  
+  <!-- Open Graph Meta Tags for social sharing -->
+  <meta property="og:title" content="Software Engineer Portfolio">
+  <meta property="og:description" content="Professional portfolio showcasing software engineering projects, skills, and experience">
+  <meta property="og:image" content="assets/images/og-image.jpg">
+  <meta property="og:url" content="https://yourportfolio.com">
+  <meta property="og:type" content="website">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container header-container">
+      <a href="#" class="logo">DevPortfolio</a>
+      
+      <nav>
+        <button class="mobile-menu-btn" aria-label="Toggle navigation menu" aria-expanded="false">
+          <i class="fas fa-bars"></i>
+        </button>
+        
+        <ul class="nav-links">
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="pages/about.html">About Page</a></li>
+          <li><a href="pages/portfolio.html">Portfolio Page</a></li>
+          <li><a href="pages/resume.html">Resume Page</a></li>
+        </ul>
+      </nav>
+      
+      <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+        <i class="fas fa-moon"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container hero-content animate-on-scroll">
+      <h1>Hi, I'm <span class="highlight">Your Name</span></h1>
+      <p>Software Engineer specializing in full-stack development with a passion for creating elegant, efficient, and user-friendly applications.</p>
+      <div class="hero-buttons">
+        <a href="#portfolio" class="btn">View My Work</a>
+        <a href="#contact" class="btn btn-outline">Contact Me</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2 class="section-title animate-on-scroll">About Me</h2>
+      
+      <div class="about-content">
+        <div class="about-image animate-on-scroll">
+          <img src="assets/images/profile.jpg" alt="Your Name - Software Engineer" onerror="this.src='https://via.placeholder.com/500x500?text=Your+Photo'">
+        </div>
+        
+        <div class="about-text animate-on-scroll">
+          <h3>Who I Am</h3>
+          <p>I'm a passionate software engineer with X years of experience in developing web and mobile applications. I enjoy solving complex problems and creating intuitive user experiences.</p>
+          <p>My journey in software development began when I [your story here]. Since then, I've worked on various projects ranging from [types of projects] to [other types].</p>
+          
+          <div class="skills">
+            <h4>My Skills</h4>
+            <div class="skill-tags">
+              <span class="skill-tag">JavaScript</span>
+              <span class="skill-tag">React</span>
+              <span class="skill-tag">Node.js</span>
+              <span class="skill-tag">Python</span>
+              <span class="skill-tag">SQL</span>
+              <span class="skill-tag">Git</span>
+              <span class="skill-tag">AWS</span>
+              <span class="skill-tag">Docker</span>
+              <span class="skill-tag">CI/CD</span>
+              <span class="skill-tag">Agile</span>
+              <!-- Add more skills as needed -->
+            </div>
+          </div>
+          
+          <a href="pages/about.html" class="btn mt-4">More About Me</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="portfolio">
+    <div class="container">
+      <h2 class="section-title animate-on-scroll">My Portfolio</h2>
+      
+      <div class="portfolio-filters animate-on-scroll">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="web">Web Development</button>
+        <button class="filter-btn" data-filter="mobile">Mobile Apps</button>
+        <button class="filter-btn" data-filter="backend">Backend</button>
+        <button class="filter-btn" data-filter="other">Other</button>
+      </div>
+      
+      <div class="portfolio-grid">
+        <!-- Portfolio Item 1 -->
+        <div class="portfolio-item web animate-on-scroll">
+          <div class="portfolio-image">
+            <img src="assets/images/project1.jpg" alt="Project 1" onerror="this.src='https://via.placeholder.com/600x400?text=Project+1'">
+          </div>
+          <div class="portfolio-content">
+            <h3>E-Commerce Platform</h3>
+            <p>A full-stack e-commerce solution with payment integration and inventory management.</p>
+            <div class="portfolio-tags">
+              <span class="portfolio-tag">React</span>
+              <span class="portfolio-tag">Node.js</span>
+              <span class="portfolio-tag">MongoDB</span>
+            </div>
+            <a href="#" class="btn btn-sm">View Project</a>
+          </div>
+        </div>
+        
+        <!-- Portfolio Item 2 -->
+        <div class="portfolio-item mobile animate-on-scroll">
+          <div class="portfolio-image">
+            <img src="assets/images/project2.jpg" alt="Project 2" onerror="this.src='https://via.placeholder.com/600x400?text=Project+2'">
+          </div>
+          <div class="portfolio-content">
+            <h3>Fitness Tracking App</h3>
+            <p>A mobile application for tracking workouts, nutrition, and health metrics.</p>
+            <div class="portfolio-tags">
+              <span class="portfolio-tag">React Native</span>
+              <span class="portfolio-tag">Firebase</span>
+              <span class="portfolio-tag">Redux</span>
+            </div>
+            <a href="#" class="btn btn-sm">View Project</a>
+          </div>
+        </div>
+        
+        <!-- Portfolio Item 3 -->
+        <div class="portfolio-item backend animate-on-scroll">
+          <div class="portfolio-image">
+            <img src="assets/images/project3.jpg" alt="Project 3" onerror="this.src='https://via.placeholder.com/600x400?text=Project+3'">
+          </div>
+          <div class="portfolio-content">
+            <h3>API Microservices</h3>
+            <p>A collection of microservices for handling authentication, payments, and data processing.</p>
+            <div class="portfolio-tags">
+              <span class="portfolio-tag">Python</span>
+              <span class="portfolio-tag">FastAPI</span>
+              <span class="portfolio-tag">Docker</span>
+            </div>
+            <a href="#" class="btn btn-sm">View Project</a>
+          </div>
+        </div>
+        
+        <!-- Add more portfolio items as needed -->
+      </div>
+      
+      <div class="text-center mt-5 animate-on-scroll">
+        <a href="pages/portfolio.html" class="btn">View All Projects</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resume Section -->
+  <section id="resume" class="resume">
+    <div class="container">
+      <h2 class="section-title animate-on-scroll">My Resume</h2>
+      
+      <div class="resume-content">
+        <div class="resume-column animate-on-scroll">
+          <h3>Education</h3>
+          
+          <div class="resume-item">
+            <span class="resume-date">2018 - 2022</span>
+            <h4>Bachelor of Science in Computer Science</h4>
+            <h5>University Name</h5>
+            <p>Graduated with honors. Specialized in software engineering and artificial intelligence.</p>
+          </div>
+          
+          <div class="resume-item">
+            <span class="resume-date">2016 - 2018</span>
+            <h4>Associate Degree in Programming</h4>
+            <h5>College Name</h5>
+            <p>Focused on web development and database management.</p>
+          </div>
+        </div>
+        
+        <div class="resume-column animate-on-scroll">
+          <h3>Experience</h3>
+          
+          <div class="resume-item">
+            <span class="resume-date">2022 - Present</span>
+            <h4>Senior Software Engineer</h4>
+            <h5>Company Name</h5>
+            <p>Lead development of web applications using React and Node.js. Implemented CI/CD pipelines and mentored junior developers.</p>
+          </div>
+          
+          <div class="resume-item">
+            <span class="resume-date">2020 - 2022</span>
+            <h4>Software Developer</h4>
+            <h5>Company Name</h5>
+            <p>Developed and maintained RESTful APIs. Collaborated with cross-functional teams to deliver high-quality software solutions.</p>
+          </div>
+          
+          <div class="resume-item">
+            <span class="resume-date">2018 - 2020</span>
+            <h4>Junior Developer</h4>
+            <h5>Company Name</h5>
+            <p>Assisted in front-end development using HTML, CSS, and JavaScript. Participated in code reviews and testing.</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="text-center mt-5 animate-on-scroll">
+        <a href="assets/resume.pdf" class="btn" download>Download CV</a>
+        <a href="pages/resume.html" class="btn btn-outline ml-3">View Full Resume</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2 class="section-title animate-on-scroll">Get In Touch</h2>
+      
+      <div class="contact-content">
+        <div class="contact-info animate-on-scroll">
+          <h3>Contact Information</h3>
+          
+          <div class="contact-details">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="contact-text">
+                <h4>Location</h4>
+                <p>City, Country</p>
+              </div>
+            </div>
+            
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="contact-text">
+                <h4>Email</h4>
+                <p>your.email@example.com</p>
+              </div>
+            </div>
+            
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="contact-text">
+                <h4>Phone</h4>
+                <p>+1 (123) 456-7890</p>
+              </div>
+            </div>
+          </div>
+          
+          <h3>Follow Me</h3>
+          <div class="social-links">
+            <a href="#" class="social-link" aria-label="GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="#" class="social-link" aria-label="LinkedIn">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="#" class="social-link" aria-label="Twitter">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" class="social-link" aria-label="Instagram">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+        
+        <div class="contact-form animate-on-scroll">
+          <h3>Send Me a Message</h3>
+          
+          <form id="contact-form">
+            <div class="form-group">
+              <input type="text" id="name" name="name" class="form-control" placeholder="Your Name" required>
+            </div>
+            
+            <div class="form-group">
+              <input type="email" id="email" name="email" class="form-control" placeholder="Your Email" required>
+            </div>
+            
+            <div class="form-group">
+              <input type="text" id="subject" name="subject" class="form-control" placeholder="Subject">
+            </div>
+            
+            <div class="form-group">
+              <textarea id="message" name="message" class="form-control" placeholder="Your Message" required></textarea>
+            </div>
+            
+            <button type="submit" class="btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">DevPortfolio</div>
+        
+        <ul class="footer-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        
+        <div class="footer-social">
+          <a href="#" aria-label="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="#" aria-label="LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="#" aria-label="Twitter">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#" aria-label="Instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+      
+      <div class="copyright">
+        &copy; <span id="current-year">2023</span> Your Name. All Rights Reserved.
+      </div>
+    </div>
+  </footer>
+
+  <!-- Embed Script for Google Sites -->
+  <script>
+    // Update current year in copyright
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+    
+    // Check if page is in an iframe (embedded)
+    if (window.self !== window.top) {
+      document.body.classList.add('embedded');
+      
+      // Send height to parent frame for proper sizing
+      function sendHeight() {
+        const height = document.body.scrollHeight;
+        window.parent.postMessage({ type: 'resize', height: height }, '*');
+      }
+      
+      // Send height on load and resize
+      window.addEventListener('load', sendHeight);
+      window.addEventListener('resize', sendHeight);
+    }
+  </script>
+
+  <!-- Custom JavaScript -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

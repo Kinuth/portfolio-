@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume - Software Engineer Portfolio</title>
+  <meta name="description" content="View my professional experience, education, and skills as a software engineer">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="../assets/images/favicon.ico" type="image/x-icon">
+  
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="../assets/css/style.css">
+  
+  <!-- Open Graph Meta Tags for social sharing -->
+  <meta property="og:title" content="Resume - Software Engineer Portfolio">
+  <meta property="og:description" content="View my professional experience, education, and skills as a software engineer">
+  <meta property="og:image" content="../assets/images/og-image.jpg">
+  <meta property="og:url" content="https://yourportfolio.com/resume">
+  <meta property="og:type" content="website">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container header-container">
+      <a href="../index.html" class="logo">DevPortfolio</a>
+      
+      <nav>
+        <button class="mobile-menu-btn" aria-label="Toggle navigation menu" aria-expanded="false">
+          <i class="fas fa-bars"></i>
+        </button>
+        
+        <ul class="nav-links">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="resume.html" class="active">Resume</a></li>
+          <li><a href="../index.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+      
+      <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+        <i class="fas fa-moon"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- Page Title -->
+  <section class="page-title">
+    <div class="container">
+      <h1>My Resume</h1>
+      <div class="resume-actions">
+        <a href="../assets/resume.pdf" class="btn" download>
+          <i class="fas fa-download"></i> Download PDF
+        </a>
+        <button class="btn btn-outline print-btn" onclick="window.print()">
+          <i class="fas fa-print"></i> Print Resume
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resume Content -->
+  <section class="resume-page">
+    <div class="container">
+      <!-- Resume Header -->
+      <div class="resume-header animate-on-scroll">
+        <div class="resume-header-content">
+          <h2>Your Name</h2>
+          <p class="resume-title">Senior Software Engineer</p>
+          <div class="resume-contact-info">
+            <div class="resume-contact-item">
+              <i class="fas fa-envelope"></i>
+              <span>your.email@example.com</span>
+            </div>
+            <div class="resume-contact-item">
+              <i class="fas fa-phone"></i>
+              <span>+1 (123) 456-7890</span>
+            </div>
+            <div class="resume-contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>City, Country</span>
+            </div>
+            <div class="resume-contact-item">
+              <i class="fas fa-globe"></i>
+              <span>www.yourportfolio.com</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Resume Summary -->
+      <div class="resume-section animate-on-scroll">
+        <h3 class="resume-section-title">Professional Summary</h3>
+        <div class="resume-section-content">
+          <p>Experienced software engineer with X years of expertise in full-stack development, specializing in building scalable web applications and RESTful APIs. Proficient in JavaScript, Python, and cloud technologies with a strong focus on code quality and user experience. Proven track record of delivering complex projects on time and mentoring junior developers.</p>
+        </div>
+      </div>
+      
+      <!-- Experience -->
+      <div class="resume-section animate-on-scroll">
+        <h3 class="resume-section-title">Work Experience</h3>
+        
+        <div class="resume-section-content">
+          <!-- Job 1 -->
+          <div class="resume-item">
+            <div class="resume-item-header">
+              <div class="resume-item-title">
+                <h4>Senior Software Engineer</h4>
+                <h5>Company Name</h5>
+              </div>
+              <div class="resume-item-date">2022 - Present</div>
+            </div>
+            <div class="resume-item-body">
+              <ul>
+                <li>Led the development of a high-traffic e-commerce platform using React and Node.js, resulting in a 40% increase in conversion rates.</li>
+                <li>Implemented CI/CD pipelines using GitHub Actions, reducing deployment time by 60%.</li>
+                <li>Optimized database queries and implemented caching strategies, improving application performance by 35%.</li>
+                <li>Mentored junior developers and conducted code reviews to ensure code quality and best practices.</li>
+                <li>Collaborated with product managers and designers to define feature requirements and technical specifications.</li>
+              </ul>
+            </div>
+          </div>
+          
+          <!-- Job 2 -->
+          <div class="resume-item">
+            <div class="resume-item-header">
+              <div class="resume-item-title">
+                <h4>Software Developer</h4>
+                <h5>Company Name</h5>
+              </div>
+              <div class="resume-item-date">2020 - 2022</div>
+            </div>
+            <div class="resume-item-body">
+              <ul>
+                <li>Developed and maintained RESTful APIs using Express.js and MongoDB, serving over 100,000 daily active users.</li>
+                <li>Implemented authentication and authorization systems using JWT and OAuth 2.0.</li>
+                <li>Created responsive user interfaces with React and Redux, following accessibility standards.</li>
+                <li>Participated in agile development processes, including sprint planning, daily stand-ups, and retrospectives.</li>
+                <li>Collaborated with QA team to identify and fix bugs, reducing customer-reported issues by 25%.</li>
+              </ul>
+            </div>
+          </div>
+          
+          <!-- Job 3 -->
+          <div class="resume-item">
+            <div class="resume-item-header">
+              <div class="resume-item-title">
+                <h4>Junior Developer</h4>
+                <h5>Company Name</h5>
+              </div>
+              <div class="resume-item-date">2018 - 2020</div>
+            </div>
+            <div class="resume-item-body">
+              <ul>
+                <li>Assisted in front-end development using HTML, CSS, and JavaScript for corporate websites and web applications.</li>
+                <li>Implemented responsive designs and ensured cross-browser compatibility.</li>
+                <li>Participated in code reviews and testing to maintain code quality.</li>
+                <li>Collaborated with senior developers to troubleshoot and resolve technical issues.</li>
+                <li>Contributed to documentation and knowledge base for internal use.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Education -->
+      <div class="resume-section animate-on-scroll">
+        <h3 class="resume-section-title">Education</h3>
+        
+        <div class="resume-section-content">
+          <!-- Education 1 -->
+          <div class="resume-item">
+            <div class="resume-item-header">
+              <div class="resume-item-title">
+                <h4>Bachelor of Science in Computer Science</h4>
+                <h5>University Name</h5>
+              </div>
+              <div class="resume-item-date">2018 - 2022</div>
+            </div>
+            <div class="resume-item-body">
+              <p>Graduated with honors (GPA: 3.8/4.0). Specialized in software engineering and artificial intelligence. Relevant coursework included:</p>
+              <ul>
+                <li>Data Structures and Algorithms</li>
+                <li>Database Systems</li>
+                <li>Web Development</li>
+                <li>Machine Learning</li>
+                <li>Software Engineering Principles</li>
+              </ul>
+            </div>
+          </div>
+          
+          <!-- Education 2 -->
+          <div class="resume-item">
+            <div class="resume-item-header">
+              <div class="resume-item-title">
+                <h4>Associate Degree in Programming</h4>
+                <h5>College Name</h5>
+              </div>
+              <div class="resume-item-date">2016 - 2018</div>
+            </div>
+            <div class="resume-item-body">
+              <p>Focused on web development and database management. Completed projects in web application development and database design.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Skills -->
+      <div class="resume-section animate-on-scroll">
+        <h3 class="resume-section-title">Technical Skills</h3>
+        
+        <div class="resume-section-content">
+          <div class="resume-skills">
+            <div class="resume-skill-category">
+              <h4>Programming Languages</h4>
+              <div class="resume-skill-tags">
+                <span class="resume-skill-tag">JavaScript</span>
+                <span class="resume-skill-tag">TypeScript</span>
+                <span class="resume-skill-tag">Python</span>
+                <span class="resume-skill-tag">Java</span>
+                <span class="resume-skill-tag">SQL</span>
+                <span class="resume-skill-tag">HTML/CSS</span>
+              </div>
+            </div>
+            
+            <div class="resume-skill-category">
+              <h4>Frameworks & Libraries</h4>
+              <div class="resume-skill-tags">
+                <span class="resume-skill-tag">React</span>
+                <span class="resume-skill-tag">Angular</span>
+                <span class="resume-skill-tag">Node.js</span>
+                <span class="resume-skill-tag">Express</span>
+                <span class="resume-skill-tag">Django</span>
+                <span class="resume-skill-tag">Flask</span>
+                <span class="resume-skill-tag">Redux</span>
+                <span class="resume-skill-tag">Bootstrap</span>
+              </div>
+            </div>
+            
+            <div class="resume-skill-category">
+              <h4>Databases</h4>
+              <div class="resume-skill-tags">
+                <span class="resume-skill-tag">MongoDB</span>
+                <span class="resume-skill-tag">PostgreSQL</span>
+                <span class="resume-skill-tag">MySQL</span>
+                <span class="resume-skill-tag">Redis</span>
+                <span class="resume-skill-tag">Firebase</span>
+              </div>
+            </div>
+            
+            <div class="resume-skill-category">
+              <h4>DevOps & Tools</h4>
+              <div class="resume-skill-tags">
+                <span class="resume-skill-tag">Git</span>
+                <span class="resume-skill-tag">Docker</span>
+                <span class="resume-skill-tag">Kubernetes</span>
+                <span class="resume-skill-tag">AWS</span>
+                <span class="resume-skill-tag">CI/CD</span>
+                <span class="resume-skill-tag">Jenkins</span>
+                <span class="resume-skill-tag">GitHub Actions</span>
+              </div>
+            </div>
+            
+            <div class="resume-skill-category">
+              <h4>Methodologies</h4>
+              <div class="resume-skill-tags">
+                <span class="resume-skill-tag">Agile/Scrum</span>
+                <span class="resume-skill-tag">Test-Driven Development</span>
+                <span class="resume-skill-tag">RESTful API Design</span>
+                <span class="resume-skill-tag">Microservices</span>
+                <span class="resume-skill-tag">Object-Oriented Design</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Certifications -->
+      <div class="resume-section animate-on-scroll">
+        <h3 class="resume-section-title">Certifications</h3>
+        
+        <div class="resume-section-content">
+          <div class="resume-certifications">
+            <div class="resume-certification">
+              <div class="resume-certification-logo">
+                <i class="fab fa-aws"></i>
+              </div>
+              <div class="resume-certification-details">
+                <h4>AWS Certified Developer - Associate</h4>
+                <p>Amazon Web Services</p>
+                <span class="resume-certification-date">2023</span>
+              </div>
+            </div>
+            
+            <div class="resume-certification">
+              <div class="resume-certification-logo">
+                <i class="fas fa-certificate"></i>
+              </div>
+              <div class="resume-certification-details">
+                <h4>Professional Scrum Master I (PSM I)</h4>
+                <p>Scrum.org</p>
+                <span class="resume-certification-date">2022</span>
+              </div>
+            </div>
+            
+            <div class="resume-certification">
+              <div class="resume-certification-logo">
+                <i class="fab fa-google"></i>
+              </div>
+              <div class="resume-certification-details">
+                <h4>Google Cloud Professional Developer</h4>
+                <p>Google</p>
+                <span class="resume-certification-date">2021</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Projects -->
+      <div class="resume-section animate-on-scroll">
+        <h3 class="resume-section-title">Key Projects</h3>
+        
+        <div class="resume-section-content">
+          <div class="resume-projects">
+            <div class="resume-project">
+              <h4>E-Commerce Platform</h4>
+              <p>Developed a full-stack e-commerce solution with payment integration and inventory management using React, Node.js, and MongoDB.</p>
+              <div class="resume-project-links">
+                <a href="portfolio.html" class="resume-project-link">View Details</a>
+              </div>
+            </div>
+            
+            <div class="resume-project">
+              <h4>Fitness Tracking App</h4>
+              <p>Created a mobile application for tracking workouts, nutrition, and health metrics using React Native and Firebase.</p>
+              <div class="resume-project-links">
+                <a href="portfolio.html" class="resume-project-link">View Details</a>
+              </div>
+            </div>
+            
+            <div class="resume-project">
+              <h4>API Microservices</h4>
+              <p>Built a collection of microservices for handling authentication, payments, and data processing using Python, FastAPI, and Docker.</p>
+              <div class="resume-project-links">
+                <a href="portfolio.html" class="resume-project-link">View Details</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- References -->
+      <div class="resume-section animate-on-scroll">
+        <h3 class="resume-section-title">References</h3>
+        
+        <div class="resume-section-content">
+          <p>Professional references available upon request.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section class="cta-section">
+    <div class="container">
+      <div class="cta-content animate-on-scroll">
+        <h2>Interested in my experience?</h2>
+        <p>Let's connect and discuss how my skills and background can contribute to your team or project.</p>
+        <a href="../index.html#contact" class="btn">Get In Touch</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">DevPortfolio</div>
+        
+        <ul class="footer-links">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="../index.html#contact">Contact</a></li>
+        </ul>
+        
+        <div class="footer-social">
+          <a href="#" aria-label="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="#" aria-label="LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="#" aria-label="Twitter">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#" aria-label="Instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+      
+      <div class="copyright">
+        &copy; <span id="current-year">2023</span> Your Name. All Rights Reserved.
+      </div>
+    </div>
+  </footer>
+
+  <!-- Embed Script for Google Sites -->
+  <script>
+    // Update current year in copyright
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+    
+    // Check if page is in an iframe (embedded)
+    if (window.self !== window.top) {
+      document.body.classList.add('embedded');
+      
+      // Send height to parent frame for proper sizing
+      function sendHeight() {
+        const height = document.body.scrollHeight;
+        window.parent.postMessage({ type: 'resize', height: height }, '*');
+      }
+      
+      // Send height on load and resize
+      window.addEventListener('load', sendHeight);
+      window.addEventListener('resize', sendHeight);
+    }
+  </script>
+
+  <!-- Custom JavaScript -->
+  <script src="../assets/js/main.js"></script>
+</body>
+</html>

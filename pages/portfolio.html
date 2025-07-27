@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Software Engineer Projects</title>
+  <meta name="description" content="Explore my software engineering projects, including web applications, mobile apps, and backend systems">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="../assets/images/favicon.ico" type="image/x-icon">
+  
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="../assets/css/style.css">
+  
+  <!-- Open Graph Meta Tags for social sharing -->
+  <meta property="og:title" content="Portfolio - Software Engineer Projects">
+  <meta property="og:description" content="Explore my software engineering projects, including web applications, mobile apps, and backend systems">
+  <meta property="og:image" content="../assets/images/og-image.jpg">
+  <meta property="og:url" content="https://yourportfolio.com/portfolio">
+  <meta property="og:type" content="website">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container header-container">
+      <a href="../index.html" class="logo">DevPortfolio</a>
+      
+      <nav>
+        <button class="mobile-menu-btn" aria-label="Toggle navigation menu" aria-expanded="false">
+          <i class="fas fa-bars"></i>
+        </button>
+        
+        <ul class="nav-links">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="portfolio.html" class="active">Portfolio</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="../index.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+      
+      <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+        <i class="fas fa-moon"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- Page Title -->
+  <section class="page-title">
+    <div class="container">
+      <h1>My Portfolio</h1>
+      <p>A showcase of my projects and work</p>
+    </div>
+  </section>
+
+  <!-- Portfolio Filters -->
+  <section class="portfolio-page">
+    <div class="container">
+      <div class="portfolio-filters animate-on-scroll">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="web">Web Development</button>
+        <button class="filter-btn" data-filter="mobile">Mobile Apps</button>
+        <button class="filter-btn" data-filter="backend">Backend</button>
+        <button class="filter-btn" data-filter="other">Other</button>
+      </div>
+      
+      <div class="portfolio-grid">
+        <!-- Portfolio Item 1 -->
+        <div class="portfolio-item web animate-on-scroll">
+          <div class="portfolio-image">
+            <img src="../assets/images/project1.jpg" alt="E-Commerce Platform" onerror="this.src='https://via.placeholder.com/600x400?text=E-Commerce+Platform'">
+          </div>
+          <div class="portfolio-content">
+            <h3>E-Commerce Platform</h3>
+            <p>A full-stack e-commerce solution with payment integration and inventory management.</p>
+            <div class="portfolio-tags">
+              <span class="portfolio-tag">React</span>
+              <span class="portfolio-tag">Node.js</span>
+              <span class="portfolio-tag">MongoDB</span>
+            </div>
+            <a href="project-details.html?id=1" class="btn btn-sm">View Details</a>
+          </div>
+        </div>
+        
+        <!-- Portfolio Item 2 -->
+        <div class="portfolio-item mobile animate-on-scroll">
+          <div class="portfolio-image">
+            <img src="../assets/images/project2.jpg" alt="Fitness Tracking App" onerror="this.src='https://via.placeholder.com/600x400?text=Fitness+App'">
+          </div>
+          <div class="portfolio-content">
+            <h3>Fitness Tracking App</h3>
+            <p>A mobile application for tracking workouts, nutrition, and health metrics.</p>
+            <div class="portfolio-tags">
+              <span class="portfolio-tag">React Native</span>
+              <span class="portfolio-tag">Firebase</span>
+              <span class="portfolio-tag">Redux</span>
+            </div>
+            <a href="project-details.html?id=2" class="btn btn-sm">View Details</a>
+          </div>
+        </div>
+        
+        <!-- Portfolio Item 3 -->
+        <div class="portfolio-item backend animate-on-scroll">
+          <div class="portfolio-image">
+            <img src="../assets/images/project3.jpg" alt="API Microservices" onerror="this.src='https://via.placeholder.com/600x400?text=API+Microservices'">
+          </div>
+          <div class="portfolio-content">
+            <h3>API Microservices</h3>
+            <p>A collection of microservices for handling authentication, payments, and data processing.</p>
+            <div class="portfolio-tags">
+              <span class="portfolio-tag">Python</span>
+              <span class="portfolio-tag">FastAPI</span>
+              <span class="portfolio-tag">Docker</span>
+            </div>
+            <a href="project-details.html?id=3" class="btn btn-sm">View Details</a>
+          </div>
+        </div>
+        
+        <!-- Portfolio Item 4 -->
+        <div class="portfolio-item web animate-on-scroll">
+          <div class="portfolio-image">
+            <img src="../assets/images/project4.jpg" alt="Dashboard UI" onerror="this.src='https://via.placeholder.com/600x400?text=Dashboard+UI'">
+          </div>
+          <div class="portfolio-content">
+            <h3>Analytics Dashboard</h3>
+            <p>A responsive dashboard for visualizing business metrics and analytics data.</p>
+            <div class="portfolio-tags">
+              <span class="portfolio-tag">Vue.js</span>
+              <span class="portfolio-tag">D3.js</span>
+              <span class="portfolio-tag">Express</span>
+            </div>
+            <a href="project-details.html?id=4" class="btn btn-sm">View Details</a>
+          </div>
+        </div>
+        
+        <!-- Portfolio Item 5 -->
+        <div class="portfolio-item mobile animate-on-scroll">
+          <div class="portfolio-image">
+            <img src="../assets/images/project5.jpg" alt="Travel App" onerror="this.src='https://via.placeholder.com/600x400?text=Travel+App'">
+          </div>
+          <div class="portfolio-content">
+            <h3>Travel Companion App</h3>
+            <p>A mobile app for planning trips, finding local attractions, and sharing experiences.</p>
+            <div class="portfolio-tags">
+              <span class="portfolio-tag">Flutter</span>
+              <span class="portfolio-tag">Firebase</span>
+              <span class="portfolio-tag">Google Maps API</span>
+            </div>
+            <a href="project-details.html?id=5" class="btn btn-sm">View Details</a>
+          </div>
+        </div>
+        
+        <!-- Portfolio Item 6 -->
+        <div class="portfolio-item backend animate-on-scroll">
+          <div class="portfolio-image">
+            <img src="../assets/images/project6.jpg" alt="Machine Learning Model" onerror="this.src='https://via.placeholder.com/600x400?text=ML+Model'">
+          </div>
+          <div class="portfolio-content">
+            <h3>Recommendation Engine</h3>
+            <p>A machine learning-based recommendation system for personalized content delivery.</p>
+            <div class="portfolio-tags">
+              <span class="portfolio-tag">Python</span>
+              <span class="portfolio-tag">TensorFlow</span>
+              <span class="portfolio-tag">AWS</span>
+            </div>
+            <a href="project-details.html?id=6" class="btn btn-sm">View Details</a>
+          </div>
+        </div>
+        
+        <!-- Portfolio Item 7 -->
+        <div class="portfolio-item other animate-on-scroll">
+          <div class="portfolio-image">
+            <img src="../assets/images/project7.jpg" alt="IoT Project" onerror="this.src='https://via.placeholder.com/600x400?text=IoT+Project'">
+          </div>
+          <div class="portfolio-content">
+            <h3>Smart Home IoT System</h3>
+            <p>An IoT system for home automation, including temperature control and security monitoring.</p>
+            <div class="portfolio-tags">
+              <span class="portfolio-tag">Raspberry Pi</span>
+              <span class="portfolio-tag">MQTT</span>
+              <span class="portfolio-tag">Node.js</span>
+            </div>
+            <a href="project-details.html?id=7" class="btn btn-sm">View Details</a>
+          </div>
+        </div>
+        
+        <!-- Portfolio Item 8 -->
+        <div class="portfolio-item web animate-on-scroll">
+          <div class="portfolio-image">
+            <img src="../assets/images/project8.jpg" alt="Social Media Platform" onerror="this.src='https://via.placeholder.com/600x400?text=Social+Media'">
+          </div>
+          <div class="portfolio-content">
+            <h3>Social Media Platform</h3>
+            <p>A community platform for connecting professionals in the tech industry.</p>
+            <div class="portfolio-tags">
+              <span class="portfolio-tag">React</span>
+              <span class="portfolio-tag">GraphQL</span>
+              <span class="portfolio-tag">MongoDB</span>
+            </div>
+            <a href="project-details.html?id=8" class="btn btn-sm">View Details</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section class="cta-section">
+    <div class="container">
+      <div class="cta-content animate-on-scroll">
+        <h2>Have a project in mind?</h2>
+        <p>Let's discuss how I can help bring your ideas to life with clean, efficient code and user-friendly design.</p>
+        <a href="../index.html#contact" class="btn">Get In Touch</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">DevPortfolio</div>
+        
+        <ul class="footer-links">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="../index.html#contact">Contact</a></li>
+        </ul>
+        
+        <div class="footer-social">
+          <a href="#" aria-label="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="#" aria-label="LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="#" aria-label="Twitter">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#" aria-label="Instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+      
+      <div class="copyright">
+        &copy; <span id="current-year">2023</span> Your Name. All Rights Reserved.
+      </div>
+    </div>
+  </footer>
+
+  <!-- Embed Script for Google Sites -->
+  <script>
+    // Update current year in copyright
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+    
+    // Check if page is in an iframe (embedded)
+    if (window.self !== window.top) {
+      document.body.classList.add('embedded');
+      
+      // Send height to parent frame for proper sizing
+      function sendHeight() {
+        const height = document.body.scrollHeight;
+        window.parent.postMessage({ type: 'resize', height: height }, '*');
+      }
+      
+      // Send height on load and resize
+      window.addEventListener('load', sendHeight);
+      window.addEventListener('resize', sendHeight);
+    }
+  </script>
+
+  <!-- Custom JavaScript -->
+  <script src="../assets/js/main.js"></script>
+</body>
+</html>

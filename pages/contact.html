@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Software Engineer Portfolio</title>
+  <meta name="description" content="Get in touch with me for job opportunities, collaborations, or questions about my software engineering work">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="../assets/images/favicon.ico" type="image/x-icon">
+  
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="../assets/css/style.css">
+  
+  <!-- Open Graph Meta Tags for social sharing -->
+  <meta property="og:title" content="Contact - Software Engineer Portfolio">
+  <meta property="og:description" content="Get in touch with me for job opportunities, collaborations, or questions about my software engineering work">
+  <meta property="og:image" content="../assets/images/og-image.jpg">
+  <meta property="og:url" content="https://yourportfolio.com/contact">
+  <meta property="og:type" content="website">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container header-container">
+      <a href="../index.html" class="logo">DevPortfolio</a>
+      
+      <nav>
+        <button class="mobile-menu-btn" aria-label="Toggle navigation menu" aria-expanded="false">
+          <i class="fas fa-bars"></i>
+        </button>
+        
+        <ul class="nav-links">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+      
+      <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+        <i class="fas fa-moon"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- Page Title -->
+  <section class="page-title">
+    <div class="container">
+      <h1>Get In Touch</h1>
+      <p>I'm always open to discussing new projects, creative ideas or opportunities to be part of your vision.</p>
+    </div>
+  </section>
+
+  <!-- Contact Content -->
+  <section class="contact-page">
+    <div class="container">
+      <div class="contact-grid">
+        <!-- Contact Information -->
+        <div class="contact-info animate-on-scroll">
+          <h2>Contact Information</h2>
+          <p>Feel free to reach out through any of the following channels. I typically respond within 24-48 hours.</p>
+          
+          <div class="contact-details">
+            <div class="contact-detail-item">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="contact-text">
+                <h3>Email</h3>
+                <p><a href="mailto:your.email@example.com">your.email@example.com</a></p>
+              </div>
+            </div>
+            
+            <div class="contact-detail-item">
+              <div class="contact-icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="contact-text">
+                <h3>Phone</h3>
+                <p><a href="tel:+11234567890">+1 (123) 456-7890</a></p>
+              </div>
+            </div>
+            
+            <div class="contact-detail-item">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="contact-text">
+                <h3>Location</h3>
+                <p>City, Country</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="contact-social">
+            <h3>Connect With Me</h3>
+            <div class="social-links">
+              <a href="#" aria-label="GitHub" class="social-link">
+                <i class="fab fa-github"></i>
+                <span>GitHub</span>
+              </a>
+              <a href="#" aria-label="LinkedIn" class="social-link">
+                <i class="fab fa-linkedin-in"></i>
+                <span>LinkedIn</span>
+              </a>
+              <a href="#" aria-label="Twitter" class="social-link">
+                <i class="fab fa-twitter"></i>
+                <span>Twitter</span>
+              </a>
+              <a href="#" aria-label="Instagram" class="social-link">
+                <i class="fab fa-instagram"></i>
+                <span>Instagram</span>
+              </a>
+            </div>
+          </div>
+          
+          <div class="availability-info">
+            <h3>Availability</h3>
+            <p>Currently <span class="availability-status available">Available</span> for freelance work and full-time positions.</p>
+            <p>Preferred working hours: 9 AM - 6 PM (UTC)</p>
+          </div>
+        </div>
+        
+        <!-- Contact Form -->
+        <div class="contact-form-container animate-on-scroll">
+          <h2>Send Me a Message</h2>
+          <p>Have a question or want to work together? Fill out the form below.</p>
+          
+          <form id="contact-form" class="contact-form">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your Name" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="Your Email" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" placeholder="Subject" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Your Message" rows="6" required></textarea>
+            </div>
+            
+            <div class="form-group">
+              <div class="checkbox-container">
+                <input type="checkbox" id="consent" name="consent" required>
+                <label for="consent">I agree to the <a href="#">privacy policy</a> and consent to being contacted regarding my inquiry.</label>
+              </div>
+            </div>
+            
+            <button type="submit" class="btn btn-submit">
+              <span class="btn-text">Send Message</span>
+              <i class="fas fa-paper-plane"></i>
+            </button>
+            
+            <div id="form-status" class="form-status"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- FAQ Section -->
+  <section class="faq-section">
+    <div class="container">
+      <h2 class="section-title animate-on-scroll">Frequently Asked Questions</h2>
+      
+      <div class="faq-container">
+        <div class="faq-item animate-on-scroll">
+          <div class="faq-question">
+            <h3>What services do you offer?</h3>
+            <button class="faq-toggle" aria-label="Toggle FAQ answer">
+              <i class="fas fa-plus"></i>
+            </button>
+          </div>
+          <div class="faq-answer">
+            <p>I offer a range of software development services including full-stack web development, mobile app development, API design and integration, database architecture, and technical consulting. My expertise spans across front-end technologies like React and Angular, as well as back-end frameworks like Node.js, Django, and Flask.</p>
+          </div>
+        </div>
+        
+        <div class="faq-item animate-on-scroll">
+          <div class="faq-question">
+            <h3>What is your typical project process?</h3>
+            <button class="faq-toggle" aria-label="Toggle FAQ answer">
+              <i class="fas fa-plus"></i>
+            </button>
+          </div>
+          <div class="faq-answer">
+            <p>My project process typically involves the following steps:</p>
+            <ol>
+              <li>Initial consultation to understand your requirements and goals</li>
+              <li>Proposal and scope definition with timeline and cost estimates</li>
+              <li>Design and architecture planning</li>
+              <li>Development with regular progress updates</li>
+              <li>Testing and quality assurance</li>
+              <li>Deployment and launch</li>
+              <li>Post-launch support and maintenance</li>
+            </ol>
+          </div>
+        </div>
+        
+        <div class="faq-item animate-on-scroll">
+          <div class="faq-question">
+            <h3>How do you handle project pricing?</h3>
+            <button class="faq-toggle" aria-label="Toggle FAQ answer">
+              <i class="fas fa-plus"></i>
+            </button>
+          </div>
+          <div class="faq-answer">
+            <p>I offer flexible pricing models depending on the project requirements:</p>
+            <ul>
+              <li><strong>Fixed Price:</strong> For well-defined projects with clear requirements</li>
+              <li><strong>Hourly Rate:</strong> For projects with evolving requirements or ongoing development</li>
+              <li><strong>Retainer:</strong> For clients needing regular support and maintenance</li>
+            </ul>
+            <p>I provide detailed quotes after understanding your specific needs during our initial consultation.</p>
+          </div>
+        </div>
+        
+        <div class="faq-item animate-on-scroll">
+          <div class="faq-question">
+            <h3>What is your availability for new projects?</h3>
+            <button class="faq-toggle" aria-label="Toggle FAQ answer">
+              <i class="fas fa-plus"></i>
+            </button>
+          </div>
+          <div class="faq-answer">
+            <p>My availability varies throughout the year based on current project commitments. I typically book projects 2-4 weeks in advance, but I can sometimes accommodate urgent requests. Please contact me with your timeline, and I'll let you know if I can meet your needs.</p>
+          </div>
+        </div>
+        
+        <div class="faq-item animate-on-scroll">
+          <div class="faq-question">
+            <h3>Do you offer maintenance after project completion?</h3>
+            <button class="faq-toggle" aria-label="Toggle FAQ answer">
+              <i class="fas fa-plus"></i>
+            </button>
+          </div>
+          <div class="faq-answer">
+            <p>Yes, I offer ongoing maintenance and support services for all completed projects. This can include bug fixes, security updates, performance optimization, and feature enhancements. I provide various maintenance packages tailored to your specific needs and budget.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Map Section -->
+  <section class="map-section">
+    <div class="container">
+      <div class="map-container animate-on-scroll">
+        <!-- Replace with your actual map embed code -->
+        <div class="map-placeholder">
+          <i class="fas fa-map-marked-alt"></i>
+          <p>Map location placeholder - Replace with your actual map embed</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">DevPortfolio</div>
+        
+        <ul class="footer-links">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        
+        <div class="footer-social">
+          <a href="#" aria-label="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="#" aria-label="LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="#" aria-label="Twitter">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#" aria-label="Instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+      
+      <div class="copyright">
+        &copy; <span id="current-year">2023</span> Your Name. All Rights Reserved.
+      </div>
+    </div>
+  </footer>
+
+  <!-- Embed Script for Google Sites -->
+  <script>
+    // Update current year in copyright
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+    
+    // Check if page is in an iframe (embedded)
+    if (window.self !== window.top) {
+      document.body.classList.add('embedded');
+      
+      // Send height to parent frame for proper sizing
+      function sendHeight() {
+        const height = document.body.scrollHeight;
+        window.parent.postMessage({ type: 'resize', height: height }, '*');
+      }
+      
+      // Send height on load and resize
+      window.addEventListener('load', sendHeight);
+      window.addEventListener('resize', sendHeight);
+    }
+    
+    // Form submission handling
+    document.getElementById('contact-form').addEventListener('submit', function(e) {
+      e.preventDefault();
+      
+      const formStatus = document.getElementById('form-status');
+      formStatus.textContent = 'Sending message...';
+      formStatus.className = 'form-status sending';
+      
+      // Simulate form submission (replace with actual form submission logic)
+      setTimeout(function() {
+        formStatus.textContent = 'Message sent successfully! I will get back to you soon.';
+        formStatus.className = 'form-status success';
+        document.getElementById('contact-form').reset();
+      }, 1500);
+    });
+    
+    // FAQ toggle functionality
+    document.querySelectorAll('.faq-toggle').forEach(button => {
+      button.addEventListener('click', () => {
+        const faqItem = button.closest('.faq-item');
+        faqItem.classList.toggle('active');
+        
+        if (faqItem.classList.contains('active')) {
+          button.innerHTML = '<i class="fas fa-minus"></i>';
+        } else {
+          button.innerHTML = '<i class="fas fa-plus"></i>';
+        }
+      });
+    });
+  </script>
+
+  <!-- Custom JavaScript -->
+  <script src="../assets/js/main.js"></script>
+</body>
+</html>

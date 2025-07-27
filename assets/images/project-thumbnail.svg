@@ -1,0 +1,26 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="600" height="400" fill="#e6e6e6"/>
+  
+  <!-- Project Icon -->
+  <g transform="translate(300, 170)">
+    <!-- Computer Screen -->
+    <rect x="-80" y="-60" width="160" height="120" rx="5" fill="#b0b0b0"/>
+    <rect x="-70" y="-50" width="140" height="100" fill="#d8d8d8"/>
+    
+    <!-- Code Elements -->
+    <rect x="-60" y="-40" width="50" height="10" rx="2" fill="#a0a0a0"/>
+    <rect x="-60" y="-20" width="120" height="10" rx="2" fill="#a0a0a0"/>
+    <rect x="-60" y="0" width="80" height="10" rx="2" fill="#a0a0a0"/>
+    <rect x="-60" y="20" width="100" height="10" rx="2" fill="#a0a0a0"/>
+    <rect x="-60" y="40" width="60" height="10" rx="2" fill="#a0a0a0"/>
+    
+    <!-- Computer Stand -->
+    <rect x="-15" y="60" width="30" height="20" fill="#b0b0b0"/>
+    <rect x="-40" y="80" width="80" height="10" rx="2" fill="#b0b0b0"/>
+  </g>
+  
+  <!-- Text -->
+  <text x="300" y="300" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#808080">Project Thumbnail</text>
+  <text x="300" y="330" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#808080">600 × 400</text>
+</svg>
